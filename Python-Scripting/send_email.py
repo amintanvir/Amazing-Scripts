@@ -17,4 +17,4 @@ try:
    smtpObj.sendmail(sender, receivers, message)         
    print "Successfully sent email"
 except SMTPException:
-   print "Error: unable to send email"
+   print "Error: unable to send email, please try again"
